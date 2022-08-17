@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(174, 213, 248);
     display: flex;
     flex-direction: column;
     justify-content: center;
