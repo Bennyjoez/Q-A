@@ -9,8 +9,8 @@ for(let i = 0; i < plusBtns.length; i++) {
         let parent = button.parentElement.parentElement;
         let minus = document.getElementsByClassName('minus')[i];
         minus.style.display = "block"
-        let paragragh = parent.getElementsByTagName('p')[0];
-        paragragh.style.display = "initial"
+        let paragraph = parent.getElementsByTagName('p')[0];
+        paragraph.style.display = "initial"
         // adding a dividing line within the paragragh
         let heading = document.getElementsByTagName('h2')[i]; 
         heading.style.borderBottom = "1px solid darkgray"
@@ -19,7 +19,7 @@ for(let i = 0; i < plusBtns.length; i++) {
 
         minus.addEventListener('click', function(e){
             button.style.display = "initial"
-            paragragh.style.display = "none"
+            paragraph.style.display = "none"
             minus.style.display = "none"
             heading.style.borderBottom = "none"
             heading.style.paddingBottom = "0";
